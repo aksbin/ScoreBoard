@@ -1,0 +1,43 @@
+body {
+    background-color: #29274F;
+    margin: 0;
+    text-align: center;
+}
+.score{   
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 180px;
+    margin: 20px 5px;
+    padding: 5px 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    background-color: #29274F;
+    color: #E2EAF4;
+    border-style: solid;
+    border-color: #E2EAF4;
+    border-width: 1px;
+    border-radius: 3px;
+    font-size: 30px;
+    margin: 10px 5px;
+}
+
+
+@font-face{
+    font-family: myFont;
+    src:url(ct.ttf)
+}
+
+h3 {
+    color: #E2EAF4;
+    font-style: bold;
+    font-size: 50px;
+    margin-bottom: 0px;
+    
+}
